@@ -1,0 +1,13 @@
+[2026-06-04 13:33:43 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+A B Cin | Sum Cout
+------------------
+0 0  0  |  0    0
+0 0  1  |  1    0
+0 1  0  |  1    0
+0 1  1  |  0    1
+1 0  0  |  1    0
+1 0  1  |  0    1
+1 1  0  |  0    1
+1 1  1  |  1    1
+testbench.sv:43: $finish called at 80 (1s)
+Done
